@@ -1,0 +1,36 @@
+{
+  "name": "vue-DIY-cli",
+  "version": "1.0.0",
+  "description": "create vue development env from 0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./build",
+    "dev": "webpack-dev-server --inline--hot",
+    "file": "webpack"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "huahuadavids",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "chalk": "^2.4.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.21.0",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^15.2.6",
+    "vue-style-loader": "^4.1.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
