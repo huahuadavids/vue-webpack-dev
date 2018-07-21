@@ -1,5 +1,4 @@
 var path = require("path");
-
 /**
  * @这一句必须写，要不然无法打包
  */
