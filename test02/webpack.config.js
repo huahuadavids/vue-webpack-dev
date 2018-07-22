@@ -19,7 +19,7 @@ module.exports = {
       }
     ]
   },
-  mode: 'production',
+  mode: 'production', //wepack 4+ 
   plugins: [
     new VueLoaderPlugin(),
   ]
